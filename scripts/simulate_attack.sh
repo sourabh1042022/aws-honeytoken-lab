@@ -1,0 +1,4 @@
+#!/bin/bash
+export AWS_ACCESS_KEY_ID=REPLACE_WITH_ACCESS_KEY
+export AWS_SECRET_ACCESS_KEY=REPLACE_WITH_SECRET
+aws sts get-caller-identity

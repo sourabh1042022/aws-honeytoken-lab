@@ -1,0 +1,7 @@
+{
+  "source": ["aws.sts"],
+  "detail-type": ["AWS API Call via CloudTrail"],
+  "detail": {
+    "eventName": ["GetCallerIdentity"]
+  }
+}
