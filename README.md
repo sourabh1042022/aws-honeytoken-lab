@@ -8,7 +8,9 @@ EventBridge, notify via Slack, and log the event in MongoDB Atlas.
 
 ## 📐 Architecture Diagram
 
-![Architecture](architecture/honeytoken-architecture.png)
+![image](https://github.com/user-attachments/assets/8aef87b7-f413-4f37-83bb-67d9174b9860)
+
+
 
 ## 📂 Repository Structure
 
@@ -19,10 +21,9 @@ aws-honeytoken-lab/
 ├── config/eventbridge-rule.json
 ├── config/permissions.sh
 ├── screenshots/
-│   ├── slack_alert.png
+│   ├── lambda_env_vars.png
 │   ├── mongo_log.png
-│   └── lambda_env_vars.png
-├── architecture/honeytoken-architecture.drawio
+│   └── slack_alert.png
 ├── README.md
 ```
 
@@ -64,9 +65,12 @@ aws sts get-caller-identity
 
 ## 📸 Screenshots
 
-- `screenshots/slack_alert.png`
-- `screenshots/mongo_log.png`
-- `screenshots/lambda_env_vars.png`
+  ![image](https://github.com/user-attachments/assets/eb82e89d-3a31-44d2-90d3-65129cc31f07)
+
+  ![image](https://github.com/user-attachments/assets/54c602ac-4f3b-461e-bea1-b27fd27a649b)
+
+  ![image](https://github.com/user-attachments/assets/9ef21d52-c4ed-428f-bbc1-db6a9fd039e5)
+
 
 ## ✅ Recommendations
 
