@@ -1,18 +1,18 @@
 # AWS HoneyToken Network and Real-Time Alerting Lab
 
-## 🧠 Objective
+## Objective
 
 This project simulates a decoy AWS environment using leaked honeytoken credentials.
 It demonstrates how to detect token misuse through CloudTrail, trigger alerts using
 EventBridge, notify via Slack, and log the event in MongoDB Atlas.
 
-## 📐 Architecture Diagram
+## Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/8aef87b7-f413-4f37-83bb-67d9174b9860)
 
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 aws-honeytoken-lab/
@@ -27,7 +27,7 @@ aws-honeytoken-lab/
 ├── README.md
 ```
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Create Honeytoken
 ```bash
@@ -63,7 +63,7 @@ export AWS_SECRET_ACCESS_KEY=<LEAKED_SECRET>
 aws sts get-caller-identity
 ```
 
-## 📸 Screenshots
+## Screenshots
 
   ![image](https://github.com/user-attachments/assets/eb82e89d-3a31-44d2-90d3-65129cc31f07)
 
@@ -72,7 +72,7 @@ aws sts get-caller-identity
   ![image](https://github.com/user-attachments/assets/9ef21d52-c4ed-428f-bbc1-db6a9fd039e5)
 
 
-## ✅ Recommendations
+## Recommendations
 
 - Rotate honeytoken credentials periodically.
 - Add automated IP blocking in future versions.
